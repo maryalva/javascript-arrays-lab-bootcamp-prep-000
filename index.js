@@ -23,8 +23,7 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function appendKitten() {
-  var kittens1 = kittens.slice(0)
-  kittens1.push("Broom")
+  var kittens1 = kittens.concat('Broom')
   return kittens1
 }
   
