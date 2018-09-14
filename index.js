@@ -23,12 +23,12 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function appendKitten() {
-  var kittens1 = kittens.append('Sammy');
+  var kittens1 = kittens.append('Broom');
   return kittens1
 }
   
 function prependKitten() {
-  var kittens2 = kittens.prepend('Sam')
+  var kittens2 = kittens.prepend('Arnold')
   return kittens2
 }
 
