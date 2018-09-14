@@ -23,6 +23,10 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function appendKitten() {
+  var copy = kittens.slice(0)
+  copy.push("Broom")
+  return copy
+  
   var kittens1 = [...kittens, 'Broom'];
   return kittens1
 }
